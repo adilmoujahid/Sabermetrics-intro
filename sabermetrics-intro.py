@@ -1,3 +1,10 @@
+"""
+Source code for my blog post: Baseball Analytics - An Introduction to Sabermetrics using Python
+__link__: http://adilmoujahid.com/posts/2014/07/baseball-analytics/
+__author__ : Adil Moujahid
+__website__: http://adilmoujahid.com
+"""
+
 import pandas as pd
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -44,7 +51,7 @@ def plot_spending_wins(teams, year):
 
 
 
-def main():
+def main():	
 
 	teams = pd.read_csv('../data/Teams.csv')
 
